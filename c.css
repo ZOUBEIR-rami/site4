@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(21,64,255,0.16523105824360995) 78%, rgba(255,255,255,1) 100%);
+}
+.para{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    border: 1px;
+    background-color: blue;
+    position: relative;
+    padding-left: 160px;
+    padding-top: 15px;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 20px;
+    
+}
+
+.logo{
+ padding-top: 60px;
+ padding-left: 50px;
+}
+.menu{
+   
+   float: right;
+   width: 50%;
+   padding-top: 80px;
+   font-size: 20px;
+   
+
+}
+ul li{
+    display: inline;
+    padding-left: 120px;
+   
+  
+}
+a{
+    color: black;
+    text-decoration: none;
+    padding-left: 10px;
+}
+a:hover{
+    color: azure;
+}
+.img1{
+    position: relative;
+    width: 100%;
+    height: 90%;
+}
+.h1{
+    opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.h2{
+    transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.img1:hover .h1{
+    opacity: 0.9;
+}
+.img1:hover .h2{
+    opacity: 1;
+}
+.h3{
+    background-color: blue;
+  color: black;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.titre1{
+  margin-top: 50px;
+  text-align: center;
+  text-decoration:underline;
+  font-family: verdana;
+}
+.tssawar{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 240px;
+    
+    padding-top: 60px;
+}
+.img2{
+    height: 160px;
+    border: 2px solid black;
+    text-align: center;
+    width: 150px;
+    box-shadow: 10px 15px rgb(0, 242, 255);
+    padding-top: 20px;
+    color: #f1f1f1;
+    
+}
+    .img22{
+     border-radius: 50px;
+     box-shadow: 10px 5px 5px 5px #04AA6D;
+     
+    }
+
+.img3{
+    height: 160px;
+    border: 2px solid black;
+    text-align: center;
+    width: 150px;
+    box-shadow: 10px 15px rgb(0, 242, 255);
+    padding-top: 20px;
+    color: white;
+}
+.img33{
+    border-radius: 50px;
+    box-shadow: 10px 5px 5px 5px #04AA6D;
+   }
+.img4{
+    height: 160px;
+    border: 2px solid black;
+    text-align: center;
+    width: 150px;
+    box-shadow: 10px 15px rgb(0, 242, 255);
+    padding-top: 20px;
+}
+.img44{
+    border-radius: 50px;
+    box-shadow: 10px 5px 5px 5px #04AA6D;
+   }
+.img5{
+    height: 160px;
+    border: 2px solid black;
+    text-align: center;
+    width: 150px;
+    box-shadow: 10px 15px rgb(0, 242, 255);
+    padding-top: 20px;
+}
+.img55{
+    border-radius: 50px;
+    box-shadow: 10px 5px 5px 5px #04AA6D;
+   }
+.img6{
+    height: 160px;
+    border: 2px solid black;
+    text-align: center;
+    width: 150px;
+    box-shadow: 10px 15px rgb(0, 242, 255);
+    padding-top: 20px;
+}
+.img66{
+    border-radius: 50px;
+    box-shadow: 10px 5px 5px 5px #04AA6D;
+   }
+.img7{
+    height: 160px;
+    border: 2px solid black;
+    text-align: center;
+    width: 150px;
+    box-shadow: 10px 15px rgb(0, 242, 255);
+    padding-top: 20px;
+}
+.img77{
+    border-radius: 50px;
+    box-shadow: 10px 5px 5px 5px #04AA6D;
+   }
+.titre2{
+    margin-top: 50px;
+  text-align: center;
+  text-decoration:underline;
+  font-family: verdana;
+}
+.quisomme{
+    width: 100%;
+    height: 500px;
+    
+    margin-top: 50px;
+    display:  flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    margin-left: 3px;
+    
+}
+
+.ppara{
+   margin-top: 100px;
+   font-size: 20px;
+   font-weight: 20px;
+   color: rgb(0, 0, 0);
+}
+.zou{
+    border: 2px solid black;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 10px 50px red;
+    margin-top: 0px;
+   
+  
+ 
+  
+ }
+ .tou{
+   
+     padding-top: 10px;
+ }
+ .you{
+     padding-top: 10px;
+     padding-left: 30px;
+     color: rgb(0, 0, 0);
+ }
+ .dou{
+     
+  padding-left: 30px;
+ padding-top: 40px;
+  
+  color: rgb(0, 0, 0);
+ 
+ }
+ .ho1{
+    position: relative;
+   
+ }
+ .imgpara{
+    display: block;
+    box-shadow: 7px 10px blue;
+  
+ }
+ .ho2{
+    position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+ margin-bottom: 200px;
+  text-align: center;
+ }
+ .ho1:hover .ho2{
+    opacity: 1;
+ }
